@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header{
+    padding: 43px 0 0 15px;
+ 
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header__row{
+    display: flex;
+    column-gap: 40px;
+}
+.header__link{
+    color: #999;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 154.545% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header__link:hover{
+    color: #00D6B4;
+    transition: 0.5s;
+}
+.app{
+    background: url("./IMAGE.png") center/cover no-repeat;
+    padding: 226px 0 140px;
+    text-align: center;
+}
+.app__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+}
+.app__btn{
+    margin: 26px 0 0;
+    color: #00D6B4;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00D6B4;
+    background: transparent;
+    padding: 10px 26px;
+}
+.work{
+    background: #222;
+    padding: 49px 0 101px;
+}
+.work__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 33px;
+    line-height: 30px;
+}
+.work__row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px 20px;
+}
+.work__card{
+    width: calc(33.33333% - 40px / 3);
+    transition: 1s;
+}
+.work__card:hover{
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.work__card-img{
+    width: 100%;
+}
+.footer{
+    background: #222;
+    padding: 36px 0;
+}
+.footer__title{
+    color: #C2C2C2;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer__desc{
+    color: #999;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
